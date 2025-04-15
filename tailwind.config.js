@@ -8,5 +8,5 @@ export default {
     extend: {},
   },
   plugins: [],
+  darkMode: 'class', // ✅ Enables dark mode with class strategy (no changes to light mode)
 }
-

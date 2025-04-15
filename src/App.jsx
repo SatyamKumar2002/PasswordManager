@@ -7,13 +7,13 @@ import Footer from './Components/Navbar.jsx/Footer'
 function App() {
 
   return (
-    <>
+    <div className='overflow-y-auto overflow-x-auto scrollbar-hide'>
     <Navbar/>
-    <div className='bg-green-50 bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"'>
+    <div className='min-h-screen bg-green-50 bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]"'>
     <Manager/>
     </div>
-    <Footer/>
-    </>
+    <Footer/>  
+    </div>
   )
 }
 
